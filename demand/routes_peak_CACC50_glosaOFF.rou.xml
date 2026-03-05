@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<routes>
+  <vType vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="16.67" id="hdv_car" />
+  <vType vClass="passenger" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="16.67" id="cacc_car" carFollowModel="CACC" />
+  <vType vClass="truck" accel="1.1" decel="3.5" sigma="0.5" length="12.0" minGap="3.0" maxSpeed="12.5" id="heavy" />
+  <flow id="peak_223073607_LEFT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="223073607" to="156019117" departLane="best" />
+  <flow id="peak_223073607_LEFT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="223073607" to="156019117" departLane="best" />
+  <flow id="peak_223073607_LEFT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="223073607" to="156019117" departLane="best" />
+  <flow id="peak_223073607_STRAIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="315.00" from="223073607" to="691209732#1" departLane="best" />
+  <flow id="peak_223073607_STRAIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="315.00" from="223073607" to="691209732#1" departLane="best" />
+  <flow id="peak_223073607_STRAIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="70.00" from="223073607" to="691209732#1" departLane="best" />
+  <flow id="peak_223073607_RIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="223073607" to="223076782#1" departLane="best" />
+  <flow id="peak_223073607_RIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="223073607" to="223076782#1" departLane="best" />
+  <flow id="peak_223073607_RIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="223073607" to="223076782#1" departLane="best" />
+  <flow id="peak_24403500#0_LEFT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="24403500#0" to="691209722" departLane="best" />
+  <flow id="peak_24403500#0_LEFT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="24403500#0" to="691209722" departLane="best" />
+  <flow id="peak_24403500#0_LEFT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="24403500#0" to="691209722" departLane="best" />
+  <flow id="peak_24403500#0_STRAIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="315.00" from="24403500#0" to="156019117" departLane="best" />
+  <flow id="peak_24403500#0_STRAIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="315.00" from="24403500#0" to="156019117" departLane="best" />
+  <flow id="peak_24403500#0_STRAIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="70.00" from="24403500#0" to="156019117" departLane="best" />
+  <flow id="peak_24403500#0_RIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="24403500#0" to="691209732#1" departLane="best" />
+  <flow id="peak_24403500#0_RIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="24403500#0" to="691209732#1" departLane="best" />
+  <flow id="peak_24403500#0_RIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="24403500#0" to="691209732#1" departLane="best" />
+  <flow id="peak_528314136_LEFT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="528314136" to="691209732#1" departLane="best" />
+  <flow id="peak_528314136_LEFT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="528314136" to="691209732#1" departLane="best" />
+  <flow id="peak_528314136_LEFT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="528314136" to="691209732#1" departLane="best" />
+  <flow id="peak_528314136_STRAIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="315.00" from="528314136" to="223076782#1" departLane="best" />
+  <flow id="peak_528314136_STRAIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="315.00" from="528314136" to="223076782#1" departLane="best" />
+  <flow id="peak_528314136_STRAIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="70.00" from="528314136" to="223076782#1" departLane="best" />
+  <flow id="peak_528314136_RIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="528314136" to="691209722" departLane="best" />
+  <flow id="peak_528314136_RIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="528314136" to="691209722" departLane="best" />
+  <flow id="peak_528314136_RIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="528314136" to="691209722" departLane="best" />
+  <flow id="peak_691209726#0_LEFT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="691209726#0" to="223076782#1" departLane="best" />
+  <flow id="peak_691209726#0_LEFT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="691209726#0" to="223076782#1" departLane="best" />
+  <flow id="peak_691209726#0_LEFT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="691209726#0" to="223076782#1" departLane="best" />
+  <flow id="peak_691209726#0_STRAIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="315.00" from="691209726#0" to="691209722" departLane="best" />
+  <flow id="peak_691209726#0_STRAIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="315.00" from="691209726#0" to="691209722" departLane="best" />
+  <flow id="peak_691209726#0_STRAIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="70.00" from="691209726#0" to="691209722" departLane="best" />
+  <flow id="peak_691209726#0_RIGHT_car_hdv" type="hdv_car" begin="0" end="3600" vehsPerHour="67.50" from="691209726#0" to="156019117" departLane="best" />
+  <flow id="peak_691209726#0_RIGHT_car_cacc" type="cacc_car" begin="0" end="3600" vehsPerHour="67.50" from="691209726#0" to="156019117" departLane="best" />
+  <flow id="peak_691209726#0_RIGHT_heavy" type="heavy" begin="0" end="3600" vehsPerHour="15.00" from="691209726#0" to="156019117" departLane="best" />
+</routes>

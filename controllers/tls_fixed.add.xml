@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="cluster_2320178528_3341584387_3341584388_3341584389" type="static" programID="fixed100" offset="0">
+        <!-- EW green -->
+        <phase duration="45" state="GGGGggrrrrrGGGGggrrrrr"/>
+        <!-- EW yellow -->
+        <phase duration="3" state="yyyyyyrrrrryyyyyyrrrrr"/>
+        <!-- all-red -->
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+        <!-- NS green -->
+        <phase duration="43" state="rrrrrrGGGggrrrrrrGGGgg"/>
+        <!-- NS yellow -->
+        <phase duration="3" state="rrrrrryyyyyrrrrrryyyyy"/>
+        <!-- all-red -->
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+    </tlLogic>
+</additional>
